@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+section {
+  min-height: 100vh;
+}
+body {
+  font-family: Alata, sans-serif;
+}
+
+/* --------------GRUPP 1 START ------------------*/
+/* header */
+header {
+  padding-top: 50px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  /* MISSING STYLE*/
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  /* MISSING STYLE*/
+}
+
+/* end header */
+/* --------------GRUPP 1 END ------------------*/
+
+/* --------------GRUPP 2 START ------------------*/
+/* landing page */
+.landing-page {
+  margin-top: -90px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(images/image-hero.jpg);
+  /* MISSING STYLE*/
+}
+.landing-page-title {
+  /* MISSING STYLE*/
+
+  position: absolute;
+  display: inline-block;
+  border: 2px solid white;
+  margin-top: 200px;
+}
+/* end landing page */
+/* --------------GRUPP 2 END ------------------*/
+
+/* --------------GRUPP 3 START ------------------*/
+/* content */
+.content .container {
+  /* MISSING STYLE*/
+}
+.content-group {
+  display: flex;
+  align-items: flex-end;
+}
+
+.content-card-group {
+  display: inline-block;
+  margin-left: -170px;
+  margin-top: -70px;
+  background-color: white;
+  /* MISSING STYLE*/
+}
+.whole-title {
+  /* MISSING STYLE*/
+  font-family: Josefin sans, sans serif;
+}
+.whole-paragraph {
+  /* MISSING STYLE*/
+
+  line-height: 1.7;
+  color: #555;
+}
+/* end content */
+/* --------------GRUPP 3 END ------------------*/
+
+/* --------------GRUPP 4 START ------------------*/
+/* creations */
+.creations .container {
+  padding-bottom: 100px;
+}
+.creations-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.creations-header-title {
+  /* MISSING STYLE*/
+  font-family: Josefin sans, sans serif;
+}
+
+.creations-btn {
+  display: block;
+  /* MISSING STYLE*/
+  letter-spacing: 0.2rem;
+  color: #333;
+  text-transform: uppercase;
+}
+/* --------------GRUPP 4 END ------------------*/
+
+/* --------------GRUPP 5 START ------------------*/
+.creations-card {
+  height: 70vh;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.creations-card:hover {
+  /* MISSING STYLE */
+}
+.creations-card-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.creations-title {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+.deep-earth {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(images/image-deep-earth.jpg);
+}
+.night-arcade {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(images/image-night-arcade.jpg);
+}
+.soccer-team {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(MISSING);
+}
+.the-grid {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(images/image-grid.jpg);
+}
+.from-up {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(images/image-from-above.jpg);
+}
+.pocket {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(images/image-pocket-borealis.jpg);
+}
+.curiosity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(images/image-curiosity.jpg);
+}
+.fisheye {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(MISSING);
+}
+/* end creations */
+/* --------------GRUPP 5 END ------------------*/
+
+/* --------------GRUPP 6 START ------------------*/
+/* footer */
+footer {
+  background: #111;
+  padding: 40px 0;
+}
+.footer-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .nav-link {
+  margin-left: 0;
+  margin-right: 10px;
+}
+footer .nav-link:hover {
+  border: none;
+  color: rgb(121, 121, 121);
+}
+
+.useful-links {
+  text-align: right;
+}
+
+.footer-logo {
+  /* MISSING STYLE*/
+}
+
+.footer-nav-link {
+  /* MISSING STYLE*/
+}
+
+.footer-social-media-group,
+footer .logo {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+.social-media {
+  /* MISSING STYLE*/
+}
+.copyright {
+  color: hsl(0, 0%, 55%);
+}
+/* end footer */
+
+.attribution {
+  /* MISSING STYLE*/
+}
+.attribution a {
+  color: hsl(228, 53%, 64%);
+}
+/* --------------GRUPP 6 END ------------------*/
